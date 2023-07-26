@@ -16,4 +16,4 @@ spec:
         - name: portal 
           image: backstageacr.azurecr.io/portal
           ports:
-          - containerPort: 80
+          - containerPort: 8045
