@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '660fb700-b6a3-4f1f-bd89-437436fe16ca'
   imageRepository: 'nodejsportal'
   containerRegistry: 'backstageacr.azurecr.io'
-  dockerfilePath: '/aks-deployement-demo-nodejs/Dockerfile'
+  dockerfilePath: 'aks-deployement-demo-nodejs/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'backstage'
 
