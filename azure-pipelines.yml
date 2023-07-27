@@ -54,7 +54,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'adityasneoDevOpsVault-1115.default'
+    environment: 'kubernetes'
     strategy:
       runOnce:
         deploy:
