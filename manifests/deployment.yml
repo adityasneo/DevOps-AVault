@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: portal 
-          image: backstageacr.azurecr.io/portal
+          image: backstageacr.azurecr.io/nodejsportal
           ports:
           - containerPort: 8045
