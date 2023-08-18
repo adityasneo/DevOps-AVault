@@ -1,4 +1,5 @@
 # DevOps-Vault
+DevOps is Automation, Infrastructure and Monitoring
 App Folder is DotNet Project
 https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows#prerequisites
 
