@@ -23,6 +23,21 @@ clone and push to repo
 branch management
 create and submit PRs and MRs
 git commands
+# cloud 
+Azure
+# IAC
+Terraform 
+Terraform works?
+Provisioners 
+Providers and rsources
+variables and outputs
+# Configuration Managemnent
+Ansible
+# CI/CD
+Plan code build test release deploy operate
+# Containerzation
+Docker
+K8s
 
 
 
