@@ -7,7 +7,6 @@ trigger:
 
 resources:
 - repo: self
-appendCommitMessageToRunName:
 
 pool:
   DevOps
