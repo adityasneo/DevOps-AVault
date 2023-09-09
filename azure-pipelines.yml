@@ -16,7 +16,7 @@ variables:
   dockerRegistryServiceConnection: 'a5865680-22c5-4166-be9f-234021c16036'
   imageRepository: 'devops'
   containerRegistry: 'acrks01.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: 'sample-nodejs-docker-app/Dockerfile.nginx'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'acrks012c23-auth'
 
