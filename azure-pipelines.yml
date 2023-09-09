@@ -7,6 +7,10 @@ trigger:
 
 resources:
 - repo: self
+appendCommitMessageToRunName:
+
+pool:
+  DevOps
 
 variables:
 
@@ -18,8 +22,6 @@ variables:
   tag: '$(Build.BuildId)'
   imagePullSecret: 'acrks012c23-auth'
 
-  # Agent VM image name
-  vmImageName: 'ubuntu-latest'
 
 
 stages:
@@ -51,8 +53,6 @@ stages:
   jobs:
   - deployment: Deploy
     displayName: Deploy
-    pool:
-      vmImage: $(vmImageName)
     environment: 'adityasneoDevOpsVault.default'
     strategy:
       runOnce:
